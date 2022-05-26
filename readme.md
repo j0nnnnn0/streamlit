@@ -1,7 +1,4 @@
-<span style="color:red;font-weight:700;font-size:24px"> 
-Streamlit showcase
-</span>
-
+# Streamlit showcase
 - Intro into Streamlit
 - Follow tutorials
 - Play and learn
