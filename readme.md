@@ -20,9 +20,14 @@
 ## Install, Setup
 1. https://docs.streamlit.io/library/get-started/installation
 2. create new streamlit folder in /code
-3. pip install streamlit
+3. Create repo on github
 4. Create venv
-5. Create repo on github
+5. pip install streamlit
+6. create uber_pickups.py and run 
+    - Needed to "Downgrade the protobuf package to 3.20.x or lower."
+    - *pip uninstall  protobuf*
+    - *pip install protobuf==3.20*
+7. 
 
 
 ## Mess around
