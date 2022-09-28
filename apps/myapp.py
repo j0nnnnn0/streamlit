@@ -19,7 +19,9 @@ st.write('Your selected stock is ', tickerSymbol)
 tickerdata = yf.Ticker(tickerSymbol)
 
 # get the historical prices for this ticker
-tickerdf = tickerdata.history(period = '1d', start ='2018-05-31', end='2022-05-27')
+# tickerdf = tickerdata.history(period = '1d', start ='2022-01-01', end='2022-08-24')
+tickerdf = tickerdata.history(period = '1d', start ='2022-01-01')
+
 st.subheader("Ticker data")
 st.write(tickerdf)
 
